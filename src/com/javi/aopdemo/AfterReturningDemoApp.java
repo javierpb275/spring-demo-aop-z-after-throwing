@@ -20,7 +20,7 @@ public class AfterReturningDemoApp {
 		
 		
 		// call method to find the accounts
-		List<Account> theAccounts = theAccountDAO.findAccounts();//will match for our @AfterReturning advice
+		List<Account> theAccounts = theAccountDAO.findAccounts(false);//will match for our @AfterReturning advice
 		
 		
 		// display the accounts
