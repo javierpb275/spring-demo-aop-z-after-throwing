@@ -26,7 +26,7 @@ public class AfterThrowingDemoApp {
 			
 			// add a boolean flag to simulate exceptions
 			boolean tripWire = true;
-			theAccounts = theAccountDAO.findAccounts(tripWire);
+			theAccounts = theAccountDAO.findAccounts(tripWire);//This will throw an exception because tripWire = true
 			
 		}
 			
