@@ -24,7 +24,9 @@ public class AfterThrowingDemoApp {
 				
 		try {
 			
-		theAccounts = theAccountDAO.findAccounts();
+			// add a boolean flag to simulate exceptions
+			boolean tripWire = true;
+			theAccounts = theAccountDAO.findAccounts(tripWire);
 			
 		}
 			
